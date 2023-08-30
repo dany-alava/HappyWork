@@ -1,9 +1,8 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './home.component';
+import { NgModule } from '@angular/core';
 import { HomeRoutingModule } from './home-routing.module';
-
-
+import { HomeComponent } from './home.component';
+import { PeopleTableComponent } from 'src/app/components';
 
 @NgModule({
   declarations: [
@@ -12,6 +11,7 @@ import { HomeRoutingModule } from './home-routing.module';
   imports: [
     CommonModule,
     HomeRoutingModule,
+    PeopleTableComponent
   ]
 })
 export class HomeModule { }
