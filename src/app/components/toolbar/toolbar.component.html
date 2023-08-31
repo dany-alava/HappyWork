@@ -1,7 +1,7 @@
 <mat-toolbar color="primary">
     <span>Happy Work</span>
     <span class="example-spacer"></span>
-    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <button mat-icon-button (click)="openDialog('500ms', '500ms')" class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" matBadge="8" matBadgeColor="accent">
       <mat-icon>favorite</mat-icon>
     </button>
 </mat-toolbar>
